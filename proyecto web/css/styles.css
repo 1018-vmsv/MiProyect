@@ -1,0 +1,92 @@
+/* styles.css */
+.login-container {
+    margin-top: 100px;
+}
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #5e6c7a;
+    color: #ffffff;
+    position: fixed;
+}
+.sidebar a {
+    color: #ffffff;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 80%;
+    height: 90%;
+}
+
+.logo{
+    background-color:#697581;
+    width: 70%;
+    height: 30%;
+}
+
+#carouselExample{
+
+    width: 100vh;
+    height: 70vh;
+}
+#grande{
+    height: 70vh;
+    
+}
+#grande2{
+    height: 72vh;
+}
+
+.precioo{
+    text-align: center;
+    background-color: rgb(248, 0, 0);
+
+
+}
+
+.bodytable { 
+    font-family: Arial, sans-serif;
+     background-color: #f4f4f9;
+      color: #333;
+       display: flex;
+        flex-direction: column;
+         align-items: center;
+          justify-content: center;
+           height: 100vh;
+            margin: 0;
+         
+}
+         
+h1 {
+ font-size: 2.5em;
+  margin-bottom: 20px;
+ }
+ 
+ table { 
+    border-collapse: collapse;
+     width: 80%;
+      margin: 0 auto;
+       font-size: 1.2em;
+ }
+ 
+ th, td { 
+    border: 1px solid #ddd;
+     padding: 12px;
+      text-align: left; 
+    }
+    
+th { 
+    background-color: #4CAF50;
+     color: white;
+     }
+     
+ 
+
+tr:hover { background-color: #ddd;}
